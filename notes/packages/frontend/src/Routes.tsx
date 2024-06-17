@@ -7,7 +7,7 @@ export default function Links() {
     <Routes>
       <Route path="/" element={<Home />} />
       {/* Finally, catch all unmatched routes */}
-<Route path="*" element={<NotFound />} />;
+      <Route path="*" element={<NotFound />} />;
     </Routes>
   );
 }
